@@ -1,0 +1,15 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="refresh" content="0; url=index.html#opleiding"><title>Timur Portfolio</title><link rel="stylesheet" href="css/annfro-inspired.css"></head><body><p style="font-family:Arial;padding:40px">Doorsturen naar <a href="index.html">portfolio</a>...</p>
+<script>
+(function(){
+  function killLoader(){
+    document.body.classList.remove('is-loading');
+    var l=document.getElementById('site-loader');
+    if(l){ l.classList.add('loader-hidden','loader-hidden-force'); l.style.opacity='0'; l.style.visibility='hidden'; l.style.pointerEvents='none'; setTimeout(function(){ if(l && l.parentNode) l.parentNode.removeChild(l); }, 700); }
+  }
+  document.addEventListener('DOMContentLoaded', function(){ setTimeout(killLoader, 1200); });
+  window.addEventListener('load', function(){ setTimeout(killLoader, 300); });
+  setTimeout(killLoader, 2500);
+})();
+</script>
+
+</body></html>

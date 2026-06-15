@@ -1,0 +1,1 @@
+Modern redesign door ChatGPT: één gedeelde CSS/JS, interactieve cursor glow, scroll reveals, zoekpaneel, hover animaties, responsive layout, skillbars en modernere rangorde. Open index.html om te starten.
